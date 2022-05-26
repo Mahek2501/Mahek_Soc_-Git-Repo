@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+ HTML Forms
+    </title>
+</head>
+<body>
+<h1>HTML Forms</h1>
+
+<form>
+    <div>
+    <label for = "username">Enter Username:</label>
+    <input type = "text" id = "username" name = "username" required>
+<br><br>
+    <label for = "email">Enter Email:</label>
+    <input type = "email" id = "email" name = "email" required>
+<br> <br>
+    <label for = "password">Password:</label>
+    <input type = "password" id = "password" name = "password" required>
+</div>
+<br><br><br>
+<p>Select your age:</p>
+<input type = "radio" name = "age" value = "0-25" id = "option 1">
+<label for = "option 1">0-25</label>  
+<br>
+<input type = "radio" name = "age" value = "26-50" id = "option 2">
+<label for = "option 2">26-50</label>  
+<br>
+<input type = "radio" name = "age" value = "51+" id = "option 3">
+<label for = "option 3">51+</label> 
+
+<br><br>
+<label for = "question">Security Question:</label>
+<select  name = "question" id = "question">
+<option value = "q1"> what is your fav place</option>
+<option value = "q1"> what is your fav place</option>
+<option value = "q1"> what is your fav place</option>
+
+</select>
+<br><br>
+<label for = "answer">Security Question Answer:</label>
+<input type = "text" id = "anwer" name = "answer" placeholder = "type">
+<br><br>
+<label for = "bio"> Your bio:</label>
+<br>
+<textarea name = "bio" id = "bio" cols = "30" rows = "10" placeholder = "about you:">
+
+</textarea>
+<!--placeholder did not work in textarea for me-->
+
+<br>
+
+<input type = "submit" value = "submit the form">
+</form>
+</body>
+
+
+
+
+</html>

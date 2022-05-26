@@ -1,0 +1,15 @@
+span{
+    display: block;
+    /*
+    display: incline-block;
+    margin: 30px;
+    padding: 30px;
+    this will make incline tags to behave like incline tag only but we will be able 
+    to see top and bootom margins also as in block elemnts
+   */
+}
+div{
+    border: 3px solid crimson;
+    margin : 30px;
+    padding: 30px;
+}

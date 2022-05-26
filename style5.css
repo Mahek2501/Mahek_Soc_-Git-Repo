@@ -1,0 +1,47 @@
+p.error /* if i use .error then it will style all the tags with class error*/
+{
+    color : red;
+}
+p.success
+{
+
+color : blue;
+}
+p.success.feedback { /* this will style p tags which hv both the classes 
+    success and feedback  */
+
+    color : green;
+    border: 2px dashed orange; 
+}
+
+div#content { /* we use # with ids */
+        background-color: grey;
+    }
+
+    a[href] /* styles all anchor tags with href attribute */
+    {
+        background-color : yellow;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+     
+    /*a[ href* = "a"]
+    {
+        background-color : yellow; ( styles all a tags with the link which 
+                                    contains a as the name)
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    a[ href$ = ".com"]
+    {
+        background-color : yellow;
+        color: white;
+        text-decoration: none;  (styles all a tags whose link ends as .com)
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+*/

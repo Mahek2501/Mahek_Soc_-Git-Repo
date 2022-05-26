@@ -1,0 +1,24 @@
+div
+{
+    color : blue;
+    border: 1px solid gray; /*(does not inherit)*/
+    margin: 40px; /*( does not inherit)*/
+    font-weight:bold;
+
+}
+
+div p{ 
+    border : inherit;
+    margin: inherit;
+    color: crimson;
+    
+}
+p{
+    color: yellow;
+}
+/* div p holds more importance than p tag
+div is the parent tag of first two p tags. 
+some of the styles applied to div are inherited by p
+and some of them arenot
+we can change this by saying them to inherit.
+*/
